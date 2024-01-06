@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+
+
+    box-sizing: border-box;
+}
+body{
+   
+}
+.hero{
+    /* border: 2px solid red;  */
+    max-width: 1600px;
+    height:  100vh;
+    margin: auto;
+    filter: contrast(120%);
+    background-image: url(images/banner/edit.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+.heroboxs{
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100vh;
+    position: relative;
+
+}
+.herobox-two{
+    padding-right:8vw ;
+    text-align: right;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+    
+}
+.herobox-two h2{
+    padding-top: 220px;
+    font-size: 64px;
+    
+    
+}
+.herobox-two p{
+    max-width: 500px;
+    font-size: 16px;
+    
+    
+}
+.herobox-two button{
+
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 18px 30px;
+    color: #005FAC;
+    border-radius: 10px;
+    
+    
+}
+
+
+
+
