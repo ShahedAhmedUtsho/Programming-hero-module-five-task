@@ -32,8 +32,9 @@ body{
     box-sizing: border-box;
     /* border: 2px solid red; */
     width: 50%;
-    height: 100vh;
+    height: 100%;
     position: relative;
+    /* border: 2px solid red; */
 
 }
 .herobox-two{
@@ -56,7 +57,7 @@ body{
     max-width: 500px;
     font-size: 16px;
     
-    
+
 }
 .herobox-two button{
 
@@ -73,3 +74,218 @@ body{
 
 
 
+@media screen  and (max-width:1200px){
+    .herobox-two{
+        padding-right:6vw ;
+        gap: 20px;
+        
+    }
+    .herobox-two h2{
+        padding-top: 200px;
+        font-size: 54px;
+        
+        
+    }
+    .herobox-two p{
+        max-width: 420px;
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 0.5px;
+        
+        
+    }
+    .herobox-two button{
+
+        font-size: 16px;
+        padding: 16px 20px;
+        
+        
+        
+    }
+
+}
+
+
+
+
+            
+    @media screen  and (max-width:1000px){
+        .hero{
+            
+            height:  600px;
+            margin: auto;
+        
+        
+        }
+        .herobox-two{
+            padding-right:4vw ;
+            gap: 15px;
+            
+        }
+        .herobox-two h2{
+            padding-top: 180px;
+            font-size: 45px;
+            
+            
+        }
+        .herobox-two p{
+            max-width: 380px;
+            font-size: 15px;
+            
+            
+            
+        }
+
+
+
+
+    }
+
+
+
+    @media screen  and (max-width:900px){
+        .hero{
+            
+            height: 500px;
+            
+        
+        
+        }
+        .herobox-two{
+            padding-right:4vw ;
+            gap: 15px;
+            
+        }
+        .herobox-two h2{
+            padding-top: 150px;
+            font-size: 40px;
+            
+            
+        }
+        .herobox-two p{
+            max-width: 280px;
+            font-size: 14px;
+            
+            
+            
+        }
+     
+
+
+
+
+    }
+
+
+
+    @media screen  and (max-width:700px){
+        .hero{
+            
+            height: 450px;
+            
+        
+        
+        }
+        
+        .herobox-two h2{
+            padding-top: 150px;
+            font-size: 35px;
+            
+            
+        }
+        .herobox-two p{
+            max-width: 280px;
+            font-size: 10px;
+            
+            
+            
+        }
+        
+
+
+
+    }
+
+
+
+    @media screen  and (max-width:600px){
+        .hero{
+            height: 80vh;
+
+            
+            background-size: 1600px;
+
+          
+        }
+
+        .herobox-one{
+            display: none;
+        }
+        .herobox-two{
+            width: 100%;
+            gap: 10px;
+            padding: 20px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        .herobox-two h2{
+            font-family: montserrat;
+            font-weight: 400px;
+            padding-top: 120px;
+            font-size: 40px;
+            line-height: 60px;
+            color: #0000009e;
+
+            
+            
+        }
+        .herobox-two p{
+            max-width: 600px;
+            font-size: 14px;
+            color: #000000e0;
+            margin-bottom: 50px;
+            line-height: 20PX;
+      
+           
+            
+            
+            
+        }
+        
+
+
+
+    }
+
+
+
+
+
+
+       
+        
+
+
+
+
+    
+    
